@@ -1,7 +1,7 @@
 {
     "name": "PixelSquad-Launcher",
     "preductname": "PixelSquad Launcher",
-    "version": "1.0.0",
+    "version": "1.0.1",
     "description": "Serveur Pixelmon 1.16.5",
     "main": "app/app.js",
     "author": "Luuxis",
