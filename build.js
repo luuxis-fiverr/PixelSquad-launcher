@@ -8,7 +8,7 @@ builder.build({
         appId: preductname,
         productName: preductname,
         artifactName: "${productName}-${os}-${arch}.${ext}",
-        files: ["src/**/*", "package.json", "LICENSE.md"],
+        files: ["app/**/*", "package.json", "LICENSE.md"],
         directories: { "output": "dist" },
         compression: 'maximum',
         asar: true,
@@ -17,7 +17,7 @@ builder.build({
             releaseType: 'release',
         }],
         win: {
-            icon: "./src/assets/images/icon.ico",
+            icon: "./app/assets/images/icon.ico",
             target: [{
                 target: "nsis",
                 arch: ["x64"]
@@ -30,7 +30,7 @@ builder.build({
             runAfterFinish: true
         },
         mac: {
-            icon: "./src/assets/images/icon.icns",
+            icon: "./app/assets/images/icon.icns",
             category: "public.app-category.games",
             target: [{
                 target: "dmg",
@@ -38,7 +38,7 @@ builder.build({
             }]
         },
         linux: {
-            icon: "./src/assets/images/icon.png",
+            icon: "./app/assets/images/icon.png",
             target: [{
                 target: "AppImage",
                 arch: ["x64"]
