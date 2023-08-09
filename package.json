@@ -1,7 +1,7 @@
 {
     "name": "PixelSquad-Launcher",
     "preductname": "PixelSquad Launcher",
-    "version": "1.1.0",
+    "version": "1.1.1",
     "description": "Serveur Pixelmon 1.16.5",
     "main": "app/app.js",
     "author": "Luuxis",
@@ -23,7 +23,7 @@
     },
     "dependencies": {
         "electron-updater": "^5.3.0",
-        "minecraft-java-core": "^3.5.4",
+        "minecraft-java-core": "^3.5.8",
         "node-bdd": "^2.0.2",
         "node-fetch": "^2.6.9",
         "xml-js": "^1.6.11"
